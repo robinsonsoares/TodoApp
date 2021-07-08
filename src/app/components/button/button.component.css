@@ -17,3 +17,11 @@ button:hover {
   background-color: #fa5b70;
   transition: background-color 1s;
 }
+
+button:disabled,
+button[disabled] {
+  cursor: inherit;
+  opacity: 0.5;
+  -webkit-filter: grayscale(90%);
+  filter: grayscale(90%);
+}

@@ -1,0 +1,9 @@
+.tabs {
+  display: flex;
+  list-style: none;
+}
+
+.tabs li {
+  display: inline;
+  padding-right: 50px;
+}
